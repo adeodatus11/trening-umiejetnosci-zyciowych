@@ -26,19 +26,20 @@ img{max-width:100%;height:auto}
 header.site{background:var(--brand-dark);color:#fff}
 .bar{max-width:var(--maxw);margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;
   gap:1rem;padding:.6rem 1rem}
+header.site .bar{max-width:1280px;flex-wrap:nowrap;gap:.75rem;padding:.4rem 1rem}
 /* Logotypy wbudowane w nagłówek (biały panel dla kontrastu i czytelności) */
-.header-logos{display:flex;align-items:center;gap:1.2rem;background:#fff;border-radius:12px;
-  padding:.5rem 1rem;flex:0 0 auto}
+.header-logos{display:flex;align-items:center;gap:.65rem;background:#fff;border-radius:10px;
+  padding:.3rem .65rem;flex:0 0 auto}
 .header-logos a{display:inline-flex;align-items:center}
 .header-logos a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.logo-tnz{width:88px;height:auto;max-height:84px;object-fit:contain;display:block}
-.logo-win{width:92px;height:auto;max-height:72px;object-fit:contain;display:block}
+.logo-tnz{width:58px;height:auto;max-height:56px;object-fit:contain;display:block}
+.logo-win{width:70px;height:auto;max-height:50px;object-fit:contain;display:block}
 /* Menu zaczyna się zaraz po logotypach, wypełnia resztę rzędu */
 nav.main{flex:1 1 auto;min-width:0}
-nav.main ul{list-style:none;display:flex;flex-wrap:wrap;gap:.3rem;margin:0;padding:0;
+nav.main ul{list-style:none;display:flex;flex-wrap:nowrap;gap:.2rem;margin:0;padding:0;
   justify-content:flex-end;align-items:center}
-nav.main a{color:#fff;text-decoration:none;padding:.5rem .75rem;border-radius:6px;display:block;
-  font-size:.95rem;white-space:nowrap}
+nav.main a{color:#fff;text-decoration:none;padding:.45rem .55rem;border-radius:6px;display:block;
+  font-size:.9rem;white-space:nowrap}
 nav.main a:hover,nav.main a[aria-current="page"]{background:rgba(255,255,255,.18)}
 .menu-toggle{display:none;background:#fff;color:var(--brand-dark);border:0;border-radius:6px;
   padding:.55rem .9rem;font-size:1rem;font-weight:600;cursor:pointer;margin-left:auto}
@@ -142,8 +143,8 @@ footer.site a{color:#9fc6e6}
 .placeholder h2{margin-top:0}
 .placeholder ul{margin-bottom:0}
 
-@media (max-width:760px){
-  body{font-size:17px}
+@media (max-width:1120px){
+  header.site .bar{max-width:var(--maxw);flex-wrap:wrap;gap:1rem;padding:.6rem 1rem}
   .menu-toggle{display:block}
   nav.main{flex-basis:100%}
   nav.main ul{display:none;flex-direction:column;justify-content:flex-start;gap:.15rem;margin-top:.4rem}
@@ -151,6 +152,9 @@ footer.site a{color:#9fc6e6}
   .header-logos{gap:.8rem;padding:.45rem .65rem;max-width:calc(100% - 7rem)}
   .logo-tnz{width:64px;max-height:62px}
   .logo-win{width:68px;max-height:54px}
+}
+@media (max-width:760px){
+  body{font-size:17px}
   .table-wrap table{width:max-content;min-width:100%;max-width:none}
   article.content th,article.content td{white-space:normal;min-width:0}
   .toolbar input,.toolbar select{min-width:100%;width:100%}
