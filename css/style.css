@@ -1,0 +1,159 @@
+/* Trening umiejętności życiowych — style strony. WCAG 2.1: kontrast, focus, responsywność. */
+:root{
+  --bg:#ffffff; --fg:#1a1e24; --muted:#4a5261; --line:#d8dee8;
+  --brand:#0b5a8a; --brand-dark:#083f61; --accent:#e8f2f9;
+  /* akcent (ciemny, do badge/paska/przycisku — biały tekst czytelny) */
+  --m1:#b3271b; --m2:#1b6b43; --m3:#7e3a9a; --m4:#8a5807; --m5:#235d95; --m6:#0b636b;
+  /* pastelowe, wytłumione tła kafelków (ciemny tekst dobrze widoczny) */
+  --m1-bg:#fbeae7; --m2-bg:#e7f2ec; --m3-bg:#f2eaf7; --m4-bg:#f7efdf; --m5-bg:#e9f1f9; --m6-bg:#e3f1f2;
+  --focus:#c1440e; --maxw:1080px; --radius:10px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color:var(--fg);background:var(--bg);line-height:1.6;font-size:18px;overflow-x:hidden}
+.skip-link{position:absolute;left:0;top:0;background:var(--brand);color:#fff;
+  padding:.6rem 1rem;z-index:100}
+.skip-link:not(:focus){clip:rect(0 0 0 0);clip-path:inset(50%);height:1px;
+  overflow:hidden;white-space:nowrap;width:1px;padding:0}
+.skip-link:focus{clip:auto;clip-path:none;height:auto;width:auto}
+a{color:var(--brand-dark);text-decoration:underline}
+a:hover{color:var(--brand)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+img{max-width:100%;height:auto}
+
+/* Header + nav */
+header.site{background:var(--brand-dark);color:#fff}
+.bar{max-width:var(--maxw);margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;
+  gap:1rem;padding:.6rem 1rem}
+/* Logotypy wbudowane w nagłówek (biały panel dla kontrastu i czytelności) */
+.header-logos{display:flex;align-items:center;gap:1.2rem;background:#fff;border-radius:12px;
+  padding:.5rem 1rem;flex:0 0 auto}
+.header-logos a{display:inline-flex;align-items:center}
+.header-logos a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.logo-tnz{width:88px;height:auto;max-height:84px;object-fit:contain;display:block}
+.logo-win{width:92px;height:auto;max-height:72px;object-fit:contain;display:block}
+/* Menu zaczyna się zaraz po logotypach, wypełnia resztę rzędu */
+nav.main{flex:1 1 auto;min-width:0}
+nav.main ul{list-style:none;display:flex;flex-wrap:wrap;gap:.3rem;margin:0;padding:0;
+  justify-content:flex-end;align-items:center}
+nav.main a{color:#fff;text-decoration:none;padding:.5rem .75rem;border-radius:6px;display:block;
+  font-size:.95rem;white-space:nowrap}
+nav.main a:hover,nav.main a[aria-current="page"]{background:rgba(255,255,255,.18)}
+.menu-toggle{display:none;background:#fff;color:var(--brand-dark);border:0;border-radius:6px;
+  padding:.55rem .9rem;font-size:1rem;font-weight:600;cursor:pointer;margin-left:auto}
+
+/* Layout */
+main{max-width:var(--maxw);margin:0 auto;padding:1.5rem 1rem 3rem}
+.breadcrumbs{font-size:.9rem;color:var(--muted);margin:.5rem 0 1.2rem}
+.breadcrumbs a{color:var(--muted)}
+.hero{background:var(--accent);border:1px solid var(--line);border-radius:var(--radius);padding:1.6rem;margin-bottom:1.5rem}
+.hero h1{margin:.2rem 0 .6rem}
+.lead{font-size:1.1rem;color:var(--muted)}
+
+/* Cards / grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.card{border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem;background:#fff;
+  display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.card h3{margin:.35rem 0 .4rem;font-size:1.2rem;color:var(--fg)}
+.card .meta{font-size:.85rem;color:var(--muted);margin-bottom:.5rem}
+/* Badge „Moduł N" — biały tekst na wyraźnym, ciemnym kolorze modułu */
+.badge{display:inline-block;color:#fff;border-radius:6px;padding:.28rem .7rem;font-size:.82rem;
+  font-weight:800;text-transform:uppercase;letter-spacing:.03em;align-self:flex-start}
+.card .btn{margin-top:auto;color:#fff}
+.card .btn:hover{filter:brightness(.9);color:#fff}
+.m1{background:var(--m1)}.m2{background:var(--m2)}.m3{background:var(--m3)}
+.m4{background:var(--m4)}.m5{background:var(--m5)}.m6{background:var(--m6)}
+/* Pastelowe tło kafelka + kolorowy pasek u góry + przycisk w kolorze modułu */
+.card.m1{background:var(--m1-bg);border-top:6px solid var(--m1)} .card.m1 .btn{background:var(--m1)}
+.card.m2{background:var(--m2-bg);border-top:6px solid var(--m2)} .card.m2 .btn{background:var(--m2)}
+.card.m3{background:var(--m3-bg);border-top:6px solid var(--m3)} .card.m3 .btn{background:var(--m3)}
+.card.m4{background:var(--m4-bg);border-top:6px solid var(--m4)} .card.m4 .btn{background:var(--m4)}
+.card.m5{background:var(--m5-bg);border-top:6px solid var(--m5)} .card.m5 .btn{background:var(--m5)}
+.card.m6{background:var(--m6-bg);border-top:6px solid var(--m6)} .card.m6 .btn{background:var(--m6)}
+/* „Cele modułu" w kafelku — czytelne na pastelu */
+.card details{background:rgba(255,255,255,.55);border-radius:8px;padding:.4rem .7rem;margin:.2rem 0 .7rem}
+.card details summary{cursor:pointer;font-weight:600}
+
+.btn{display:inline-block;background:var(--brand);color:#fff;text-decoration:none;
+  padding:.55rem 1rem;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:.95rem}
+.btn:hover{background:var(--brand-dark);color:#fff}
+.btn.secondary{background:#fff;color:var(--brand-dark);border:2px solid var(--brand)}
+
+/* Search / filter */
+.toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0}
+.toolbar input,.toolbar select{font-size:1rem;padding:.5rem .7rem;border:1px solid var(--line);border-radius:8px;min-width:220px}
+.count{color:var(--muted);font-size:.9rem}
+
+/* Content article (module pages) */
+article.content h1{margin-top:0}
+article.content h2{margin-top:2rem;border-bottom:2px solid var(--line);padding-bottom:.3rem}
+article.content h3{margin-top:1.4rem}
+article.content table{border-collapse:collapse;width:100%;max-width:100%;margin:1rem 0;font-size:.95rem}
+.table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-wrap table{min-width:100%}
+article.content th,article.content td{border:1px solid var(--line);padding:.5rem .6rem;text-align:left;vertical-align:top}
+article.content th{background:var(--accent)}
+article.content blockquote{border-left:4px solid var(--brand);background:var(--accent);
+  margin:1rem 0;padding:.6rem 1rem;border-radius:0 8px 8px 0}
+article.content code{background:#eef1f5;padding:.1rem .3rem;border-radius:4px;font-size:.9em;overflow-wrap:anywhere;word-break:break-word}
+article.content p{margin:.7rem 0}
+article.content ul,article.content ol{margin:.6rem 0 1.1rem;padding-left:1.5rem}
+article.content li{margin:.35rem 0}
+article.content li>ul,article.content li>ol{margin:.35rem 0 .35rem}
+article.content h3+p,article.content h2+p{margin-top:.4rem}
+/* Wyróżnienie linii wprowadzającej przed listą (np. „Uczestnik:”) */
+article.content>p>strong:first-child{color:var(--brand-dark)}
+.toc{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.2rem;margin:1rem 0}
+.toc h2{margin:.2rem 0 .5rem;font-size:1rem;border:0}
+.toc ul{margin:0;padding-left:1.2rem}
+
+/* Downloads list */
+.downloads{list-style:none;padding:0;margin:1rem 0;display:grid;gap:.6rem}
+.downloads li{border:1px solid var(--line);border-radius:8px;padding:.8rem 1rem;display:flex;
+  justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.downloads .desc{color:var(--muted);font-size:.9rem}
+
+/* Pasek logotypów (finansowanie) */
+.logo-band{background:#fff;border-top:1px solid var(--line);padding:1.3rem 1rem;margin-top:2.5rem}
+.logos{max-width:var(--maxw);margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:1.6rem}
+.logo-band img,.logos img{height:52px;width:auto;max-width:220px;object-fit:contain}
+.logos a{display:inline-flex;align-items:center}
+.logos a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+
+/* Sekcja O projekcie */
+.project-box{background:var(--accent);border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem 1.5rem;margin:1rem 0 1.6rem}
+.project-box h2{margin-top:.2rem;border:0}
+.logos-inline{justify-content:center;gap:1.1rem;margin:1.3rem 0;padding:1.1rem;background:#fff;border-radius:8px}
+/* Jednakowe, wyśrodkowane kafelki — logotypy o różnych proporcjach wyglądają spójnie */
+.logos-inline a{display:flex;align-items:center;justify-content:center;
+  width:190px;height:110px;padding:14px;background:#fff;border:1px solid var(--line);
+  border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.logos-inline a:hover{box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.logos-inline a img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.disclaimer{font-size:.82rem;color:var(--muted);font-style:italic;margin-bottom:0}
+
+footer.site{background:#0e1620;color:#cdd6e2;margin-top:0}
+footer.site .bar{display:block;padding:1.5rem 1rem}
+footer.site a{color:#9fc6e6}
+.note{background:#fff8e6;border:1px solid #e8d38a;border-radius:8px;padding:.8rem 1rem;margin:1rem 0}
+.placeholder{border:2px dashed #a36b00;background:#fff9ea;border-radius:var(--radius);
+  padding:1rem 1.2rem;margin:1.5rem 0}
+.placeholder h2{margin-top:0}
+.placeholder ul{margin-bottom:0}
+
+@media (max-width:760px){
+  body{font-size:17px}
+  .menu-toggle{display:block}
+  nav.main{flex-basis:100%}
+  nav.main ul{display:none;flex-direction:column;justify-content:flex-start;gap:.15rem;margin-top:.4rem}
+  nav.main ul.open{display:flex}
+  .header-logos{gap:.8rem;padding:.45rem .65rem;max-width:calc(100% - 7rem)}
+  .logo-tnz{width:64px;max-height:62px}
+  .logo-win{width:68px;max-height:54px}
+  .table-wrap table{width:max-content;min-width:100%;max-width:none}
+  article.content th,article.content td{white-space:normal;min-width:0}
+  .toolbar input,.toolbar select{min-width:100%;width:100%}
+  .logos-inline a{width:44%;min-width:130px;height:92px;padding:10px}
+}
+@media print{header.site,footer.site,.toolbar,.skip-link{display:none}}
