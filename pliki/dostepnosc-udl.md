@@ -23,6 +23,7 @@
 ## Dostępność materiałów cyfrowych i strony WWW (Etap 9)
 
 - Struktura nagłówków, teksty alternatywne obrazów, kontrast ≥ 4.5:1, obsługa klawiaturą, czytelne nazwy plików i opisy do pobrania, wersja mobilna (zgodnie z WCAG 2.1 [8]).
+- Informacje o dostępności cyfrowej serwisu COVE Polska i subdomen projektowych, w tym tej strony, znajdują się w deklaracji dostępności: https://covepolska.pl/deklaracja-dostepnosci/
 
 ## Uwaga
 Dostosowania **nie obniżają celów** — zmieniają drogę dojścia do nich (zasada UDL). Warianty konkretnych ćwiczeń podano w sekcji „Możliwe modyfikacje" każdego modułu.
