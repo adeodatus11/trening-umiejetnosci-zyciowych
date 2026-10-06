@@ -1,6 +1,6 @@
 # Instrukcja korzystania z programu
 
-*Krótki przewodnik dla prowadzącego. Wersja: 20.07.2026.*
+*Krótki przewodnik dla prowadzącego.*
 
 ## Zanim zaczniesz cykl
 

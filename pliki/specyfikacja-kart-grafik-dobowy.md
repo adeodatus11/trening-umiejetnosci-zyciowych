@@ -1,8 +1,8 @@
 # Specyfikacja kart „Grafik Dobowy” dla projektanta
 
-Moduł 1 · Lekcja 1 „Dzień Dorosłego” · wersja 05.10.2026
+Moduł 1 · Lekcja 1 „Dzień Dorosłego”
 
-**Zlecenie:** przygotować plik kart do samodzielnego wydrukowania i wycięcia. Ten dokument jest specyfikacją, nie gotowym zestawem kart. Gotowy plik dostarczy zamawiający po opracowaniu graficznym.
+**Zlecenie:** przygotować plik kart do samodzielnego wydrukowania i wycięcia. Ten dokument jest specyfikacją, nie gotowym zestawem kart. Gotowe karty są dostępne w pliku grafik-dobowy-karty.pdf.
 
 ## 1. Zakres i plik zwrotny
 
@@ -88,6 +88,6 @@ Sprawdzić: 12 kart na komplet; 2 dojazdy; wszystkie 11 nazw i czasy zgodne z ta
 
 Treść oparto na istniejących dokumentach projektu; nie wprowadzono twierdzeń wymagających zewnętrznej weryfikacji medycznej lub prawnej. Autor i data pierwotnych dokumentów nie zostały wskazane w odczytanych plikach — nie przypisujemy ich domyślnie.
 
-- Program „Trening umiejętności życiowych”. *ZAŁĄCZNIK — Pakiet kart „Grafik Dobowy” (Moduł 1)*. Plik: `04_FINAL_MATERIALS/prowadzacy/Zalacznik_karty_Grafik_Dobowy.md`, sekcje „Zasady gry” i „Zestaw kart”. Dokument wewnętrzny, bez wskazanej daty i autora; odczyt 05.10.2026.
-- Program „Trening umiejętności życiowych”. *Moduł 1 — Ogarniam codzienność: samodzielność i odpowiedzialność*. Plik: `04_FINAL_MATERIALS/moduly/Modul_1.md`, sekcje 6–8, 13–16. Dokument wewnętrzny, bez wskazanej daty i autora; odczyt 05.10.2026.
-- *Kwerenda kompletności materiałów do modułów 1–6*. 05.10.2026. Plik: `08_AUDIT/KWERENDA_MATERIALOW_2026-10-05.md`, sekcje 3–4. Dokument wewnętrzny, autor niewskazany.
+- Program „Trening umiejętności życiowych”. *ZAŁĄCZNIK — Pakiet kart „Grafik Dobowy” (Moduł 1)*. Plik: `04_FINAL_MATERIALS/prowadzacy/Zalacznik_karty_Grafik_Dobowy.md`, sekcje „Zasady gry” i „Zestaw kart”. Dokument wewnętrzny, bez wskazanej daty i autora.
+- Program „Trening umiejętności życiowych”. *Moduł 1 — Ogarniam codzienność: samodzielność i odpowiedzialność*. Plik: `04_FINAL_MATERIALS/moduly/Modul_1.md`, sekcje 6–8, 13–16. Dokument wewnętrzny, bez wskazanej daty i autora.
+- *Kwerenda kompletności materiałów do modułów 1–6*. Plik: `08_AUDIT/KWERENDA_MATERIALOW.md`, sekcje 3–4. Dokument wewnętrzny, autor niewskazany.

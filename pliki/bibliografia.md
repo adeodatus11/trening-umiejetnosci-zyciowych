@@ -1,7 +1,6 @@
 # BIBLIOGRAFIA I ŹRÓDŁA
 
 **Etap 5 — Badania i uzupełnianie źródeł**
-**Data kwerendy / data dostępu do wszystkich źródeł:** 20.07.2026
 **Zakres:** kluczowe ramy instytucji międzynarodowych oraz uznane źródła metod pracy.
 
 ## Zasady doboru i zastrzeżenia
@@ -9,7 +8,7 @@
 - Wykorzystano **oficjalne strony wydawców/instytucji** (WHO, OECD, UNESCO, UNICEF, UE, CASEL, CAST, SAMHSA, APA, strona autorska A. Bandury) oraz encyklopedyczne opisy uznanych klasyków metody.
 - Źródła podpierają **metody i ramy** programu (umiejętności życiowe, uczenie społeczno-emocjonalne, edukacja włączająca, asertywność, regulacja emocji, sprawczość, bezpieczeństwo psychologiczne). Nie służą do „udowadniania" konkretnych scen — te pochodzą z materiałów źródłowych autora programu.
 - **Ograniczenia dowodów:** baza dowodów dla programów life-skills/SEL jest obszerna, ale efekty zależą od jakości wdrożenia i kontekstu; przeglądy wskazują na umiarkowane, pozytywne efekty. Techniki klasyczne (np. „zdarta płyta", komunikat „JA") mają silne ugruntowanie praktyczne i historyczne, lecz mniej badań RCT niż całe programy SEL. Oznaczono to w notach.
-- Weryfikacja dostępności: strony CASEL i repozytorium WHO IRIS sprawdzone bezpośrednio 20.07.2026; pozostałe potwierdzone przez oficjalne domeny wydawców.
+- Weryfikacja dostępności: strony CASEL i repozytorium WHO IRIS sprawdzone bezpośrednio; pozostałe potwierdzone przez oficjalne domeny wydawców.
 
 ---
 

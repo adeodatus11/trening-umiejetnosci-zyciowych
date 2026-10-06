@@ -1,7 +1,6 @@
 # RAPORT TESTÓW STRONY
 
 **Etap 10 — Testowanie strony**
-**Data:** 20.07.2026
 **Metoda:** walidacja automatyczna (skrypt sprawdzający strukturę, linki i pliki) + przegląd kodu pod kątem WCAG 2.1. Wynik zbiorczy: **0 błędów krytycznych**.
 
 ## Zakres strony
@@ -43,7 +42,7 @@ Strony: `index`, `moduly`, `modul-1..6`, `prowadzacy`, `uczestnik`, `ewaluacja`,
 ## Ograniczenia testu
 - Nie wykonano renderu wizualnego w przeglądarce na tej maszynie (ścieżka pliku ze spacjami i znakami PL utrudnia otwarcie `file://`). Zalecane **ręczne sprawdzenie wizualne** po otwarciu `index.html` lokalnie oraz test na realnym urządzeniu mobilnym.
 - Test kontrastu oparto na wartościach projektowych CSS, nie na automatycznym analizatorze — zalecana weryfikacja narzędziem (np. axe / Lighthouse) przy publikacji.
-- Linki zewnętrzne (źródła w bibliografii) prowadzą do oficjalnych domen wydawców; ich dostępność zależy od stron trzecich (CASEL i WHO IRIS zweryfikowano 20.07.2026).
+- Linki zewnętrzne (źródła w bibliografii) prowadzą do oficjalnych domen wydawców; ich dostępność zależy od stron trzecich (CASEL i WHO IRIS zweryfikowano).
 
 ## Jak przetestować lokalnie (rekomendacja)
 Uruchom prosty serwer w folderze `06_WEBSITE/` i otwórz `http://localhost:8000`:

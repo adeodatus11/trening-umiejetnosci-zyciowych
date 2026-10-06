@@ -1,0 +1,13 @@
+[
+  {
+    "id": "grafik-dobowy-karty",
+    "title": "Grafik Dobowy — 12 kart do wycięcia",
+    "modules": [
+      1
+    ],
+    "description": "Dwa arkusze A4, w tym dwa dojazdy. Drukuj w skali 100%; cztery wydruki zestawu dają 48 kart.",
+    "pdf": "materialy/pdf/grafik-dobowy-karty.pdf",
+    "print": "materialy/pdf/grafik-dobowy-karty.pdf",
+    "category": "karty"
+  }
+]

@@ -1,10 +1,10 @@
 # PROGRAM TRENINGU UMIEJĘTNOŚCI ŻYCIOWYCH
 
-*Publiczna wersja zbiorcza materiałów. Wersja: 21.07.2026.*
+*Publiczna wersja zbiorcza materiałów.*
 
 # Trening umiejętności życiowych — wprowadzenie do programu
 
-*Materiał końcowy. Program dla młodzieży, w tym osób z trudnościami w uczeniu się i funkcjonowaniu społecznym. Wersja: 20.07.2026.*
+*Materiał końcowy. Program dla młodzieży, w tym osób z trudnościami w uczeniu się i funkcjonowaniu społecznym.*
 
 ## Czym jest ten program
 Praktyczny cykl warsztatów przygotowujący młodzież (szczególnie uczniów szkół branżowych/zawodowych) do samodzielnego, odpowiedzialnego funkcjonowania w dorosłości i do wejścia na rynek pracy. Program uczy umiejętności życiowych i społeczno-emocjonalnych przez symulacje, odgrywanie ról, pracę w grupie i refleksję — bez zbędnej teorii, blisko realiów pracy.
@@ -1049,7 +1049,6 @@ Przykład (Moduł 5):
 # BIBLIOGRAFIA I ŹRÓDŁA
 
 **Etap 5 — Badania i uzupełnianie źródeł**
-**Data kwerendy / data dostępu do wszystkich źródeł:** 20.07.2026
 **Zakres:** kluczowe ramy instytucji międzynarodowych oraz uznane źródła metod pracy.
 
 ## Zasady doboru i zastrzeżenia
@@ -1057,7 +1056,7 @@ Przykład (Moduł 5):
 - Wykorzystano **oficjalne strony wydawców/instytucji** (WHO, OECD, UNESCO, UNICEF, UE, CASEL, CAST, SAMHSA, APA, strona autorska A. Bandury) oraz encyklopedyczne opisy uznanych klasyków metody.
 - Źródła podpierają **metody i ramy** programu (umiejętności życiowe, uczenie społeczno-emocjonalne, edukacja włączająca, asertywność, regulacja emocji, sprawczość, bezpieczeństwo psychologiczne). Nie służą do „udowadniania" konkretnych scen — te pochodzą z materiałów źródłowych autora programu.
 - **Ograniczenia dowodów:** baza dowodów dla programów life-skills/SEL jest obszerna, ale efekty zależą od jakości wdrożenia i kontekstu; przeglądy wskazują na umiarkowane, pozytywne efekty. Techniki klasyczne (np. „zdarta płyta", komunikat „JA") mają silne ugruntowanie praktyczne i historyczne, lecz mniej badań RCT niż całe programy SEL. Oznaczono to w notach.
-- Weryfikacja dostępności: strony CASEL i repozytorium WHO IRIS sprawdzone bezpośrednio 20.07.2026; pozostałe potwierdzone przez oficjalne domeny wydawców.
+- Weryfikacja dostępności: strony CASEL i repozytorium WHO IRIS sprawdzone bezpośrednio; pozostałe potwierdzone przez oficjalne domeny wydawców.
 
 ---
 

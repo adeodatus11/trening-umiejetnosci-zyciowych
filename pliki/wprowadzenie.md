@@ -1,6 +1,6 @@
 # Trening umiejętności życiowych — wprowadzenie do programu
 
-*Materiał końcowy. Program dla młodzieży, w tym osób z trudnościami w uczeniu się i funkcjonowaniu społecznym. Wersja: 20.07.2026.*
+*Materiał końcowy. Program dla młodzieży, w tym osób z trudnościami w uczeniu się i funkcjonowaniu społecznym.*
 
 ## Czym jest ten program
 Praktyczny cykl warsztatów przygotowujący młodzież (szczególnie uczniów szkół branżowych/zawodowych) do samodzielnego, odpowiedzialnego funkcjonowania w dorosłości i do wejścia na rynek pracy. Program uczy umiejętności życiowych i społeczno-emocjonalnych przez symulacje, odgrywanie ról, pracę w grupie i refleksję — bez zbędnej teorii, blisko realiów pracy.

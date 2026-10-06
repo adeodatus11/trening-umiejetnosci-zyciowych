@@ -12,6 +12,18 @@
     "category": "karty"
   },
   {
+    "id": "lekcja-1-dzien-doroslego",
+    "title": "Lekcja 1: Symulacja „Dzień Dorosłego”",
+    "modules": [
+      1
+    ],
+    "description": "Jednostronicowy arkusz A4: godziny, czynności, czas i podsumowanie doby.",
+    "pdf": "materialy/pdf/lekcja-1-dzien-doroslego.pdf",
+    "print": "materialy/druk/lekcja-1-dzien-doroslego.html",
+    "pages": 1,
+    "category": "karty"
+  },
+  {
     "id": "moduly-1-2-scenki",
     "title": "Moduły 1-2: sytuacje i przykłady",
     "modules": [
