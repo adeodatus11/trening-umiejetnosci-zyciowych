@@ -36,3 +36,8 @@
   if (select) select.addEventListener('change', apply);
   apply();
 })();
+
+// Drukuje wyłącznie treść strony; arkusze mają osobne widoki A4.
+document.querySelectorAll('[data-print]').forEach(function (button) {
+  button.addEventListener('click', function () { window.print(); });
+});

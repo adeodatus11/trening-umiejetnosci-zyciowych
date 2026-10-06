@@ -1,0 +1,134 @@
+[
+  {
+    "id": "modul-1-arkusze",
+    "title": "Moduł 1: arkusze uczestnika",
+    "modules": [
+      1
+    ],
+    "description": "Plan doby, decyzja i skutek oraz zamiana wymówek na rozwiązania. Bez kart „Grafik Dobowy”.",
+    "pdf": "materialy/pdf/modul-1-arkusze.pdf",
+    "print": "materialy/druk/modul-1-arkusze.html",
+    "pages": 3,
+    "category": "karty"
+  },
+  {
+    "id": "moduly-1-2-scenki",
+    "title": "Moduły 1-2: sytuacje i przykłady",
+    "modules": [
+      1,
+      2
+    ],
+    "description": "Decyzje i skutki, odpowiedzialność, parafraza oraz fakt i mój problem.",
+    "pdf": "materialy/pdf/moduly-1-2-scenki.pdf",
+    "print": "materialy/druk/moduly-1-2-scenki.html",
+    "pages": 4,
+    "category": "karty"
+  },
+  {
+    "id": "modul-2-karty-rol",
+    "title": "Moduł 2: karty ról",
+    "modules": [
+      2
+    ],
+    "description": "Pracownik, Szef/Mistrz i Obserwator: rozmowa o nieobecności.",
+    "pdf": "materialy/pdf/modul-2-karty-rol.pdf",
+    "print": "materialy/druk/modul-2-karty-rol.html",
+    "pages": 2,
+    "category": "karty"
+  },
+  {
+    "id": "moduly-3-4-karty",
+    "title": "Moduły 3-4: karty i scenki",
+    "modules": [
+      3,
+      4
+    ],
+    "description": "OK/STOP, Zdarta płyta i sześć scenek. Z M4: tylko łańcuch konsekwencji.",
+    "pdf": "materialy/pdf/moduly-3-4-karty.pdf",
+    "print": "materialy/druk/moduly-3-4-karty.html",
+    "pages": 5,
+    "category": "karty"
+  },
+  {
+    "id": "modul-5-mapa-wyzwalaczy",
+    "title": "Moduł 5: moja mapa wyzwalaczy",
+    "modules": [
+      5
+    ],
+    "description": "Dwa egzemplarze mapy na jednej stronie A4.",
+    "pdf": "materialy/pdf/modul-5-mapa-wyzwalaczy.pdf",
+    "print": "materialy/druk/modul-5-mapa-wyzwalaczy.html",
+    "pages": 1,
+    "category": "karty"
+  },
+  {
+    "id": "modul-5-karty-scenki",
+    "title": "Moduł 5: karty instruktażowe i scenki",
+    "modules": [
+      5
+    ],
+    "description": "Fakt i ocena, komunikat JA w 3 krokach, symulacje A/B i trening w parach.",
+    "pdf": "materialy/pdf/modul-5-karty-scenki.pdf",
+    "print": "materialy/druk/modul-5-karty-scenki.html",
+    "pages": 3,
+    "category": "karty"
+  },
+  {
+    "id": "modul-6-arkusze",
+    "title": "Moduł 6: portfolio i pierwszy krok",
+    "modules": [
+      6
+    ],
+    "description": "Dwa arkusze: moje ukryte portfolio oraz mój pierwszy krok po szkole.",
+    "pdf": "materialy/pdf/modul-6-arkusze.pdf",
+    "print": "materialy/druk/modul-6-arkusze.html",
+    "pages": 2,
+    "category": "karty"
+  },
+  {
+    "id": "kompendium-dydaktyczne",
+    "title": "Kompendium dydaktyczne: pięć plansz",
+    "modules": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "description": "Pięć poprawionych plansz A4: doba, skutki, zespół, komunikat JA i emocje.",
+    "pdf": "materialy/pdf/kompendium-dydaktyczne.pdf",
+    "print": "materialy/druk/kompendium-dydaktyczne.html",
+    "pages": 5,
+    "category": "plakaty"
+  },
+  {
+    "id": "program-szesc-modulow",
+    "title": "Trening Umiejętności Życiowych: sześć modułów",
+    "modules": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "description": "Jednostronicowy przegląd programu z nazwami zgodnymi ze scenariuszami.",
+    "pdf": "materialy/pdf/program-szesc-modulow.pdf",
+    "print": "materialy/druk/program-szesc-modulow.html",
+    "pages": 1,
+    "category": "plakaty"
+  },
+  {
+    "id": "techniki-regulacji-emocji",
+    "title": "Techniki regulacji emocji",
+    "modules": [
+      3,
+      5
+    ],
+    "description": "Plansza A4: dobrowolne techniki zgodne z modułami i trzy kroki komunikatu JA.",
+    "pdf": "materialy/pdf/techniki-regulacji-emocji.pdf",
+    "print": "materialy/druk/techniki-regulacji-emocji.html",
+    "pages": 1,
+    "category": "plakaty"
+  }
+]

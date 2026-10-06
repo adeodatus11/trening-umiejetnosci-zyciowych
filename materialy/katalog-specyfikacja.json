@@ -1,0 +1,12 @@
+[
+  {
+    "id": "specyfikacja-grafik-dobowy",
+    "title": "Grafik Dobowy — specyfikacja kart dla projektanta",
+    "modules": [
+      1
+    ],
+    "description": "Zlecenie przygotowania 11 rodzajów kart, 12 kart na komplet i 4 kompletów. Specyfikacja, nie gotowe karty.",
+    "md": "pliki/specyfikacja-kart-grafik-dobowy.md",
+    "print": "materialy/specyfikacja-grafik-dobowy.html"
+  }
+]
