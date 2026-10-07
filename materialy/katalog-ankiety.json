@@ -3,24 +3,27 @@
     "id": "ankieta-wejsciowa",
     "title": "Trening umiejętności życiowych — ankieta na start",
     "modules": [],
-    "description": "Formularz ewaluacyjny. DOCX oraz HTML do wydruku i ręcznego wypełnienia. W kopii publikacyjnej ujednolicono informację o kodzie; pytania, skala i sposób tworzenia kodu pozostają bez zmian.",
+    "description": "Formularz ewaluacyjny: PDF i DOCX do wydruku oraz wersja do druku w przeglądarce.",
     "docx": "materialy/ankiety/ankieta-wejsciowa.docx",
-    "print": "materialy/ankiety/ankieta-wejsciowa.html"
+    "print": "materialy/ankiety/ankieta-wejsciowa.html",
+    "pdf": "materialy/pdf/ankieta-wejsciowa.pdf"
   },
   {
     "id": "ankieta-koncowa",
     "title": "Trening umiejętności życiowych — ankieta na koniec",
     "modules": [],
-    "description": "Formularz ewaluacyjny. DOCX oraz HTML do wydruku i ręcznego wypełnienia. W kopii publikacyjnej ujednolicono informację o kodzie; pytania, skala i sposób tworzenia kodu pozostają bez zmian.",
+    "description": "Formularz ewaluacyjny: PDF i DOCX do wydruku oraz wersja do druku w przeglądarce.",
     "docx": "materialy/ankiety/ankieta-koncowa.docx",
-    "print": "materialy/ankiety/ankieta-koncowa.html"
+    "print": "materialy/ankiety/ankieta-koncowa.html",
+    "pdf": "materialy/pdf/ankieta-koncowa.pdf"
   },
   {
     "id": "karta-wdrozenia",
     "title": "Karta wdrożenia programu „Trening umiejętności życiowych”",
     "modules": [],
-    "description": "Formularz ewaluacyjny. DOCX oraz HTML do wydruku i ręcznego wypełnienia.",
+    "description": "Formularz ewaluacyjny: PDF i DOCX do wydruku oraz wersja do druku w przeglądarce.",
     "docx": "materialy/ankiety/karta-wdrozenia.docx",
-    "print": "materialy/ankiety/karta-wdrozenia.html"
+    "print": "materialy/ankiety/karta-wdrozenia.html",
+    "pdf": "materialy/pdf/karta-wdrozenia.pdf"
   }
 ]

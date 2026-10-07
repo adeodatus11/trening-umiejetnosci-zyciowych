@@ -6,7 +6,7 @@
       1
     ],
     "description": "Zlecenie przygotowania 11 rodzajów kart, 12 kart na komplet i 4 kompletów. Specyfikacja, nie gotowe karty.",
-    "md": "pliki/specyfikacja-kart-grafik-dobowy.md",
+    "pdf": "materialy/pdf/specyfikacja-grafik-dobowy.pdf",
     "print": "materialy/specyfikacja-grafik-dobowy.html"
   }
 ]

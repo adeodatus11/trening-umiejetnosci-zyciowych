@@ -25,7 +25,7 @@
   },
   {
     "id": "moduly-1-2-scenki",
-    "title": "Moduły 1-2: sytuacje i przykłady",
+    "title": "Moduły 1–2: sytuacje i przykłady",
     "modules": [
       1,
       2
@@ -50,12 +50,12 @@
   },
   {
     "id": "moduly-3-4-karty",
-    "title": "Moduły 3-4: karty i scenki",
+    "title": "Moduły 3–4: karty i scenki",
     "modules": [
       3,
       4
     ],
-    "description": "OK/STOP, Zdarta płyta i sześć scenek. Z M4: tylko łańcuch konsekwencji.",
+    "description": "OK/STOP, Zdarta płyta i sześć scenek. Z M4: tylko scenka do analizy trybików (łańcuch skutków).",
     "pdf": "materialy/pdf/moduly-3-4-karty.pdf",
     "print": "materialy/druk/moduly-3-4-karty.html",
     "pages": 5,
@@ -107,7 +107,7 @@
       4,
       5
     ],
-    "description": "Pięć poprawionych plansz A4: doba, skutki, zespół, komunikat JA i emocje.",
+    "description": "Pięć plansz A4: doba, skutki, zespół, komunikat JA i emocje.",
     "pdf": "materialy/pdf/kompendium-dydaktyczne.pdf",
     "print": "materialy/druk/kompendium-dydaktyczne.html",
     "pages": 5,
@@ -115,7 +115,7 @@
   },
   {
     "id": "program-szesc-modulow",
-    "title": "Trening Umiejętności Życiowych: sześć modułów",
+    "title": "Trening umiejętności życiowych: sześć modułów",
     "modules": [
       1,
       2,
@@ -124,7 +124,7 @@
       5,
       6
     ],
-    "description": "Jednostronicowy przegląd programu z nazwami zgodnymi ze scenariuszami.",
+    "description": "Jednostronicowy przegląd sześciu modułów programu.",
     "pdf": "materialy/pdf/program-szesc-modulow.pdf",
     "print": "materialy/druk/program-szesc-modulow.html",
     "pages": 1,
@@ -142,5 +142,47 @@
     "print": "materialy/druk/techniki-regulacji-emocji.html",
     "pages": 1,
     "category": "plakaty"
+  },
+  {
+    "id": "grafik-dobowy-instrukcja",
+    "title": "Grafik Dobowy — instrukcja gry dla zespołu",
+    "modules": [
+      1
+    ],
+    "description": "Karta-pomoc: zasady, przebieg obu wariantów, pytania do omówienia i ułatwienia.",
+    "pdf": "materialy/pdf/grafik-dobowy-instrukcja.pdf",
+    "print": "materialy/druk/grafik-dobowy-instrukcja.html",
+    "category": "karty"
+  },
+  {
+    "id": "modul-3-karty-sytuacji",
+    "title": "Moduł 3: karty sytuacji „Linia na podłodze”",
+    "modules": [
+      3
+    ],
+    "description": "17 kart sytuacji z czterema rodzajami granic do wycięcia oraz instrukcja dla prowadzącego.",
+    "pdf": "materialy/pdf/modul-3-karty-sytuacji.pdf",
+    "print": "materialy/druk/modul-3-karty-sytuacji.html",
+    "category": "karty"
+  },
+  {
+    "id": "modul-4-karty",
+    "title": "Moduł 4: karty zadań i ról",
+    "modules": [
+      4
+    ],
+    "description": "„Analiza trybików”, „Moja rola i jej znaczenie”, „Wieża”, „Pierwsze zlecenie” z kartami ról, klienta, Szefa i utrudnień oraz lista obserwacyjna E3.",
+    "pdf": "materialy/pdf/modul-4-karty.pdf",
+    "print": "materialy/druk/modul-4-karty.html",
+    "category": "karty"
+  },
+  {
+    "id": "narzedzia-ewaluacji",
+    "title": "Narzędzia ewaluacji: listy obserwacyjne i formularze",
+    "modules": [],
+    "description": "Listy obserwacyjne dla modułów 1–6, karta feedbacku obserwatora, formularz ewaluacji zajęć i karta zobowiązania.",
+    "pdf": "materialy/pdf/narzedzia-ewaluacji.pdf",
+    "print": "materialy/druk/narzedzia-ewaluacji.html",
+    "category": "karty"
   }
 ]

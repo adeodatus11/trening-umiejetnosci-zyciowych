@@ -6,9 +6,9 @@
       1
     ],
     "description": "Plan dnia · Moja decyzja → skutek · Wymówka → rozwiązanie",
-    "html": "materialy/arkusze/modul-1-wzory.html",
     "print": "materialy/arkusze/modul-1-wzory.html",
-    "category": "arkusze"
+    "category": "arkusze",
+    "pdf": "materialy/pdf/arkusze-modul-1.pdf"
   },
   {
     "id": "m2-wzory",
@@ -17,9 +17,9 @@
       2
     ],
     "description": "Parafraza — upewnij się! · Fakt / Mój problem · Telefon do szefa — obserwacja",
-    "html": "materialy/arkusze/modul-2-wzory.html",
     "print": "materialy/arkusze/modul-2-wzory.html",
-    "category": "arkusze"
+    "category": "arkusze",
+    "pdf": "materialy/pdf/arkusze-modul-2.pdf"
   },
   {
     "id": "m3-wzory",
@@ -28,9 +28,9 @@
       3
     ],
     "description": "Trzy rodzaje granic · Moje sygnały złości i moja technika",
-    "html": "materialy/arkusze/modul-3-wzory.html",
     "print": "materialy/arkusze/modul-3-wzory.html",
-    "category": "arkusze"
+    "category": "arkusze",
+    "pdf": "materialy/pdf/arkusze-modul-3.pdf"
   },
   {
     "id": "m4-wzory",
@@ -39,9 +39,9 @@
       4
     ],
     "description": "Co buduje, a co utrudnia współpracę? · Pięć zasad naszego zespołu",
-    "html": "materialy/arkusze/modul-4-wzory.html",
     "print": "materialy/arkusze/modul-4-wzory.html",
-    "category": "arkusze"
+    "category": "arkusze",
+    "pdf": "materialy/pdf/arkusze-modul-4.pdf"
   },
   {
     "id": "m5-wzory",
@@ -50,9 +50,9 @@
       5
     ],
     "description": "Moja mapa wyzwalaczy · Komunikat w trzech krokach",
-    "html": "materialy/arkusze/modul-5-wzory.html",
     "print": "materialy/arkusze/modul-5-wzory.html",
-    "category": "arkusze"
+    "category": "arkusze",
+    "pdf": "materialy/pdf/arkusze-modul-5.pdf"
   },
   {
     "id": "m6-wzory",
@@ -61,8 +61,8 @@
       6
     ],
     "description": "Inicjatywa bez ryzyka · Ukryte portfolio · Mój pierwszy krok po szkole",
-    "html": "materialy/arkusze/modul-6-wzory.html",
     "print": "materialy/arkusze/modul-6-wzory.html",
-    "category": "arkusze"
+    "category": "arkusze",
+    "pdf": "materialy/pdf/arkusze-modul-6.pdf"
   }
 ]
